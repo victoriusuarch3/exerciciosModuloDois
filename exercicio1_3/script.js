@@ -3,18 +3,19 @@
 var y = 1;
 var x = 2;
 
-switch (1) {
-    case (resultado1 = y/1 == 2):
+switch (y) {
+    case console.log("Quanto é 2/1? =", resultado1 = x / 1, ", então é um numero primo"):
         break;
-    case (resultado1 = y/1 == 1):
+    case console.log("Quanto é 2/2:", resultado1 = x/x,"então é um numero primo"):
         break;
-        case (resultado2 = y/2 == 2):
-        break;
-    case (resultado2 = y/2 == 1):
-        break;
-}
-console.log(resultado1="Verdeiro");
-console.log(resultado2="Correto");
+};
+console.log("Um número primo tem como caracteristica ser divisível por si proprio ou por 1")
+
+
+
+
+
+//console.log(resultado3 = "Correto");
 
 
 
