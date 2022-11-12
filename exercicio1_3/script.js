@@ -4,12 +4,12 @@ var y = 1;
 var x = 2;
 
 switch (x) {
-    case 1: (console.log("Quanto é 2/1 =", x / y, ", então é um numero primo"))
+    case 1: (console.log("Quanto é 2/2 =", x / x, ", então é um numero primo???"))
         break;
     case 2: (console.log("Quanto é 2/1 =", x / y, ", então é um numero primo"))
         break;
 };
-switch (x) {
+switch (y) {
     case 1: console.log("Quanto é 2/2:", x / x, ", então é um numero primo")
         break;
     case 2: console.log("Quanto é 2/2:", x / x, ", então é um numero primo")
