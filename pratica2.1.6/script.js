@@ -19,11 +19,11 @@ console.log('///////////////////////////////////////////////////////////');
 function confirmarDados(nome){
     let nomeCompleto = nome + ' da Silva';
     function getAnoNascimento(){
-        var idade = 40;
-        var ano = 2022 - idade;
+        let idade = 40;
+        let ano = 2022 - idade;
         return ano;
     }
-    var anoDeNascimento = getAnoNascimento();
+    let anoDeNascimento = getAnoNascimento();
     let geracao = 'Geração X';
     if(anoDeNascimento <= 1995){
         
