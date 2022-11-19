@@ -1,0 +1,20 @@
+.body{
+    background-color: aqua;
+}
+.insertforms {
+    background-color:#00a9ad;
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px
+}
+.inserts{
+    border-width: 6px;
+    border-style: groove;
+    
+}
+
+.inserts:hover {
+    
+    transition: 0.5s;
+    border-color: #cf70cf;
+}
